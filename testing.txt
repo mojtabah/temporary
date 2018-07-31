@@ -4,6 +4,7 @@ This is	the start of testing.txt
 ***************************************
 
 I added this file from a new clone!
+new line on newbranch
 
 ***************************************
 This is	the end	of testing.txt
