@@ -25,10 +25,17 @@ def title_string(s):
     >>> title_string("this is a StrING to be ConverTeD")
     'This Is A String To Be Converted'
     """
+    # Check type string
+    if not isinstance(s, str):
+        raise TypeError('The input must be type str')
+    
+    # check empty string
+    if len(s) == 0:
+        raise Exception('The input cannot be lenth 0')
+        
     l = s.split(' ')
     for i in range(len(l)):
         word = l[i].lower()
-
         word = word[0].upper() + word[1:]
         l[i] = word
 
