@@ -1,8 +1,10 @@
+some text
 ***************************************
 This is	the start of testing.txt
 ***************************************
 
 I added this file from a new clone!
+a hotfix on the master branch also addreseed on newbranch.
 
 ***************************************
 This is	the end	of testing.txt
